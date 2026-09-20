@@ -1,14 +1,14 @@
-From 09c74884dda5e9a5d452a7d5b78eb1c3e8a717c9 Mon Sep 17 00:00:00 2001
+From 6e78261c6e92ac2ddc19dfbc545df881847fec61 Mon Sep 17 00:00:00 2001
 From: Thiasap <you@example.com>
 Date: Mon, 9 Dec 2024 16:28:59 +0800
-Subject: [PATCH] exec anti-anti-frida.py
+Subject: [PATCH 10/10] exec anti-anti-frida.py
 
 ---
  src/embed-agent.py | 8 ++++++++
  1 file changed, 8 insertions(+)
 
 diff --git a/src/embed-agent.py b/src/embed-agent.py
-index 1cdd46da..4459b9c1 100644
+index cfb4a59..29d5bb5 100644
 --- a/src/embed-agent.py
 +++ b/src/embed-agent.py
 @@ -78,6 +78,14 @@ def main(argv):
@@ -27,5 +27,5 @@ index 1cdd46da..4459b9c1 100644
      elif host_os in {"freebsd", "qnx"}:
          embedded_agent = priv_dir / "frida-agent.so"
 -- 
-2.34.1
+2.53.0
 

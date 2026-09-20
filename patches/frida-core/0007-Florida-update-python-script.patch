@@ -1,14 +1,14 @@
-From 19026255ad926b166e7ffb8759e896fd6b5bff94 Mon Sep 17 00:00:00 2001
+From e5b2d69ed355a61ff31245b2d21fb5dae804bb8a Mon Sep 17 00:00:00 2001
 From: Ylarod <me@ylarod.cn>
 Date: Tue, 18 Jul 2023 19:55:59 +0800
-Subject: [PATCH 7/9] Florida: update python script
+Subject: [PATCH 07/10] Florida: update python script
 
 ---
  src/anti-anti-frida.py | 59 +++++++++++++++++++++++++++++-------------
  1 file changed, 41 insertions(+), 18 deletions(-)
 
 diff --git a/src/anti-anti-frida.py b/src/anti-anti-frida.py
-index b4b8dca6..d1ce5f62 100644
+index b4b8dca..d1ce5f6 100644
 --- a/src/anti-anti-frida.py
 +++ b/src/anti-anti-frida.py
 @@ -2,36 +2,59 @@ import lief
@@ -92,5 +92,5 @@ index b4b8dca6..d1ce5f62 100644
 +    log_color(f"[*] Patch Finish")
 \ No newline at end of file
 -- 
-2.42.0
+2.53.0
 

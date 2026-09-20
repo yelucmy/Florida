@@ -1,14 +1,14 @@
-From 3505dbe62e65bdcbd28058d28390da1ac7c87e86 Mon Sep 17 00:00:00 2001
+From 35f4a9a09fb80755cc4b1b24070a07d9e38edd92 Mon Sep 17 00:00:00 2001
 From: Ylarod <me@ylarod.cn>
 Date: Tue, 18 Jul 2023 16:04:15 +0800
-Subject: [PATCH 5/9] Florida: thread_gmain
+Subject: [PATCH 05/10] Florida: thread_gmain
 
 ---
  src/anti-anti-frida.py | 7 ++++++-
  1 file changed, 6 insertions(+), 1 deletion(-)
 
 diff --git a/src/anti-anti-frida.py b/src/anti-anti-frida.py
-index 7a3f6474..b4b8dca6 100644
+index 7a3f647..b4b8dca 100644
 --- a/src/anti-anti-frida.py
 +++ b/src/anti-anti-frida.py
 @@ -29,4 +29,9 @@ if __name__ == "__main__":
@@ -25,5 +25,5 @@ index 7a3f6474..b4b8dca6 100644
 +    os.system(f"sed -b -i s/gmain/{random_name}/g {input_file}")
 \ No newline at end of file
 -- 
-2.42.0
+2.53.0
 
